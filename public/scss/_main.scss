@@ -1,0 +1,29 @@
+
+// Header
+#global-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    padding-top: 75px;
+}
+.side-header {
+    .header-brand1 {
+        max-width: 100px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+.app-sidebar {
+    position: fixed;
+    inset-block-start: auto;
+    inset-block-end: auto;
+    inset-inline-start: auto;
+     .side-menu {
+        max-height: calc(100vh - 75px);
+        overflow-y: auto;
+    }
+}
