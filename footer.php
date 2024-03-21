@@ -43,7 +43,7 @@
 <!-- CUSTOM JS -->
 <script>
 $(document).ready(function(){
-   var table = $('#example').DataTable({
+  /* var table = $('#example').DataTable({
       'ajax': 'https://gyrocode.github.io/files/jquery-datatables/arrays_id.json',
       'columnDefs': [
          {
@@ -63,7 +63,7 @@ $(document).ready(function(){
       ],
       'select': 'multi',
       'order': [[1, 'asc']]
-   });
+   }); */
 });
 </script>
 <script src="assets/js/custom.js"></script>
